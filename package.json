@@ -59,9 +59,13 @@
     "redux": "^3.0.0",
     "redux-logger": "^1.0.8",
     "redux-promise-middleware": "^0.2.1",
-    "redux-thunk": "^0.1.0"
+    "redux-thunk": "^0.1.0",
+    "snyk": "^1.192.0"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel/register --require ./test/test_helper.js --recursive"
-  }
+    "test": "mocha --compilers js:babel/register --require ./test/test_helper.js --recursive",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
