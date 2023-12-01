@@ -51,7 +51,7 @@
     "lodash": "^4.17.20",
     "moment": "^2.10.6",
     "normalizr": "^2.0.0",
-    "react": "^0.14.0",
+    "react": "^15.0.0",
     "react-bootstrap": "^0.26.0",
     "react-css-modules": "^3.0.5",
     "react-redux": "^2.1.2",
